@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidDesignerProfile">
+    <option name="fullProfile">
+      <profile>
+        <option name="device" value="2.7in QVGA" />
+        <option name="deviceConfiguration" value="Portrait" />
+        <option name="localeLanguage" value="fr" />
+        <option name="targetHashString" value="android-17" />
+        <option name="theme" value="Theme" />
+      </profile>
+    </option>
+    <option name="selection" value="[Full]" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8a7ff0a9-d5f5-4cef-936e-06a28050938a" name="Default" comment="" />
+    <ignored path="ZeroSMS.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/fragment.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374841093812" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/android/zerosms/Manifest.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374743629481" ignored="false" />
+    <file path="/a.dummy" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838052162" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/src/main/java/si/marand/maf/server/serviceuser/module/dao/hibernate/HibernateServiceUserDao.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374837886861" ignored="false" />
+    <file path="/HibernateServiceUserDao.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374830320693" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/src/main/java/si/marand/maf/server/serviceuser/module/dao/ServiceUserDao.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374840232781" ignored="false" />
+    <file path="/ServiceUserDao.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374756045001" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/src/main/java/si/marand/maf/server/jastreb/serviceuser/module/dao/hibernate/HibernateServiceUserIntegrationDao.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374834024795" ignored="false" />
+    <file path="/ZeroSMS.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374762339703" ignored="false" />
+    <file path="/HibernateServiceUserIntegrationDao.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374834003142" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/client/lev/src/main/java/si/marand/lev/client/serviceuser/ui/AccountUserSearchContainer.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374836035870" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/client/lev/src/main/java/si/marand/lev/client/serviceuser/business/remote/ServiceUserRemote.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374840200772" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/client/lev/src/main/java/si/marand/lev/client/serviceuser/business/remote/ServiceUserRemoteFacade.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374840204282" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/src/main/java/si/marand/maf/server/serviceuser/module/facade/ServiceUserFacade.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374840232781" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/src/main/java/si/marand/maf/server/serviceuser/module/facade/ServiceUserFacadeBean.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374840232781" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/PresalesEventTypeEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiRequestActivityEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiDocumentItemEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BpaFormVersionEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/OfferInvitationEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/TechnologyTypeEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/DiscountFormEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/LanProviderEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/PartyContactPersonTimelineEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/RequestAlterationTypeEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiTypeEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiCharacteristicValueEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/RequestSearchItemEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/NetDeviceRequestItemEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/ReportTemplateBiItemTypeEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/RequestItemTypeRelationEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/SiteRequestItemEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/PresalesEventEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiReportTemplateCharacteristicValueEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/ProductRequestItemEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/PresalesActivityAttributeEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/ChargeAmountDiscriminatorPriceActionEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/FixedAssetsEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiSubtypeBiItemTypeEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiItemTypeEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiItemReferenceTypeEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiItemReferenceEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/NetworkDevelopmentResponseEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiPartyEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/FormEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/ProactiveActivityEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/ProposalEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiMessageTypeEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/RequestContractRelationEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/GenericRequestEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiAddressItemEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiPartyRoleItemEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/PayerRequestItemEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiItemEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/RequestItemTypeEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/InvestmentsEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/PresalesActivityEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiPlaceItemEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/AgreementEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/DistributionChannelEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/CpRelationEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiItemRoleEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiSubtypeReportTemplateEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiProductEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiStatusEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/ReportOfferingAllowanceEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/ContactPersonEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiRequestActivityProductOfferingEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiControllingOrderEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiProcessStatusTimelineEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiMessageEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/RequestItemEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/ActivityAttributeUsageEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/SearchUsernameData.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/ChangeTvChannelsResponseData.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/CheckCouponResponseData.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/CheckUsernameData.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/ChangeTvChannelsData.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiContactPersonEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/CheckUsernameResponseData.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiDocumentArchiveEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/ReserveUsernameResponseData.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/ReceivedRequestEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/GetBasicCustomerData.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiSubtypeRuleEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/FindUsersByCustAccountResponseData.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/SetPrimaryPayerData.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiCustomerAccountItemEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/ProposedEmailResponseData.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/ReportOfferingCategoryEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/ReportTemplateReferenceEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/UserData.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiStatusTimelineEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BusinessInteractionEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/UnreserveUsernameData.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/ServiceUserPTImpl.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/ObjectFactory.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/RequestAlterationEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/GetBasicCustomerDataResponseData.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiDividerEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/GetUsersBySppCodeData.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/WSResponseData.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/GetUsersBySppCodeResponseData.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BusinessMeasureEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/ServiceUserPT.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiDocumentTypeEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/CheckCouponData.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/PresalesActivityRivalEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/data/core/entity/common/server/maf/marand/si/ArrayOfString.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/ProposedEmailData.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/RevokeUserData.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/GetUserStatusResponseData.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/PartyRequestItemEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/CardinalityDateTimelineInsertionEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/ReserveUsernameData.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/RivalEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/AdditionalActionOfferingEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/RequestItemActionRestrictionEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/ServiceUser/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/serviceuser/SearchUsernameResponseData.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiSubtypeEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiProcessStatusEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/CardinalityDateTimelineEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiDocumentSynchronizationEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiSiteItemEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiDocumentEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/RequestItemTypeSummaryPropertyEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiResourceItemEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/PresalesActivitySourceEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/SiteItemRequestItemEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiSiteEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiPlaceEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BusinessCaseCpEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiReportTemplateEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiAssignedProductOfferingItemEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/RequestInfoEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/PresalesEventStatusEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/RequestActionTypeEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/PresalesActivityStatusEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/PresalesActivityStatusTimelineEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/ActionProductOfferingCharacteristicEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/PresalesEventTimelineEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiCustomerAccountEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/AgreementSignMomentEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/RequestEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiProductOfferingItemEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiDividerItemEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiProcessInstanceEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/DecisionFormEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/CpBusinessFunctionEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/ProductCharValueRequestItemEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BusinessPartnerTypeEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/CpRoleEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/ReportTemplateRequestActivityEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BusinessCaseEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/ActivityEventRuleEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiStatusTransitionRuleEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/PresalesActivityCaretakerEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/RequestPriceAlterationEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/OrganizationalUnitEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/OrganizationalUnitForAgreementEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/BiraProductOfferingRelationEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/LoanRequestItemEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/TenderActivityEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/RequestActionInstanceEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/businessinteraction/module/entity/InvitationTypeEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/client/lev/src/main/java/si/marand/lev/client/product/ui/overview/characteristic/apo/AssignedCharacteristicValuesContainer.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374837747478" ignored="false" />
+    <file path="/AccountUserSearchContainer.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374835999786" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/client/lev/src/main/java/si/marand/lev/client/serviceuser/ui/TransformMailToAdditionalServiceContainer.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374836061589" ignored="false" />
+    <file path="/TransformMailToAdditionalServiceContainer.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374836061237" ignored="false" />
+    <file path="/Dummy.txt" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1375564105755" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/src/main/java/si/marand/maf/server/product/module/dao/updater/AssignedProductOfferingUpdater.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374840073977" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/src/main/resources/ac-product.xml" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374840086608" ignored="false" />
+    <file path="/ac-product.xml" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838044067" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/src/main/java/si/marand/maf/server/businessinteraction/module/genericrequest/business/RequestItemUtils.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838252738" ignored="false" />
+    <file path="/RequestItemUtils.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838218983" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/product/module/entity/ProductSpecAlcStatusTimelineEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/Inventory-ws/target/generated-sources/cxf/si_marand_maf_server_jastreb_integration_businessinteraction_module_idata/InventoryCustomerIdata.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985140" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/product/module/entity/ArtifactLifecycleStatusEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/site/module/entity/SiteStatusItemEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/GenericRequest-ws/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/ObjectFactory.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/GenericRequest-ws/target/generated-sources/cxf/si/marand/maf/server/jastreb/ws/GenericRequestServicePort.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/InventoryLiteral-ws/target/generated-sources/cxf/si_marand_maf_server_jastreb_integration_businessinteraction_module_idata/InventoryCustomerIdata.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/maf/maf-server-oltp/target/generated-sources/apt/si/marand/maf/server/site/module/entity/ActivatorReportStatusEntityVoi.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374838985141" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/client/lev/src/main/java/si/marand/lev/client/product/ui/overview/characteristic/UsernameCharacteristicsManager.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374840371884" ignored="false" />
+    <file path="$WEBLOGIC_APPS_DIR$/Projects/jastreb/server/jastreb/NetDevice/src/main/java/si/marand/maf/server/jastreb/netdevice/module/dao/hibernate/HibernateNetDeviceIntegrationDao.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374841280545" ignored="false" />
+    <file path="/HibernateNetDeviceIntegrationDao.java" changelist="8a7ff0a9-d5f5-4cef-936e-06a28050938a" time="1374841174289" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ZeroSMS" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ZeroSMS.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/android/zerosms/ZeroSMS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="173" column="125" selection-start="5462" selection-end="5462" vertical-scroll-proportion="0.41319445">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+          <provider editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="68" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/src/com/android/zerosms/ZeroSMS.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="settings.github" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RunManager" selected="Android Application.ZeroSMS">
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ZeroSMS" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="ZeroSMS" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.ZeroSMS" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="true">C:\Users\DusanM\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a7ff0a9-d5f5-4cef-936e-06a28050938a" name="Default" comment="" />
+      <created>1374738785355</created>
+      <updated>1374738785355</updated>
+    </task>
+    <task id="LOCAL-00001" summary=" - idea files">
+      <created>1375564112707</created>
+      <updated>1375564112707</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921347" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value=" - idea files" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value=" - idea files" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/android/zerosms/ZeroSMS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="68" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/zerosms/ZeroSMS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="166" column="49" selection-start="5193" selection-end="5197" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="68" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$WEBLOGIC_APPS_DIR$/Java/Android/android-sdk/sources/android-17/android/telephony/gsm/SmsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="31" selection-start="995" selection-end="995" vertical-scroll-proportion="0.23556583" />
+      </provider>
+    </entry>
+    <entry file="file://H:/Programs/apktool-install-windows-r05-ibot/hushsms_1.7.1/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="57" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.35416666" />
+      </provider>
+    </entry>
+    <entry file="file://$WEBLOGIC_APPS_DIR$/Java/Android/android-sdk/sources/android-17/com/android/internal/telephony/SmsConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="38" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="68" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$WEBLOGIC_APPS_DIR$/Java/Android/android-sdk/sources/android-17/android/telephony/SmsMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="24" selection-start="3149" selection-end="3149" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/zerosms/ZeroSMS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="173" column="125" selection-start="5462" selection-end="5462" vertical-scroll-proportion="0.41319445">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ZeroSMS</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android (ZeroSMS)|Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Android 2.3 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Android 4.2.2 Custom</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ZeroSMS</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Android 4.2.2 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
