@@ -43,5 +43,9 @@
         android:id="@+id/btnSendSMS"  
         android:layout_width="fill_parent" 
         android:layout_height="wrap_content"
-        android:text="@string/send"/>    
+        android:text="@string/send"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView"/>
 </LinearLayout>
