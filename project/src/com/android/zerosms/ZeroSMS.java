@@ -1,5 +1,9 @@
 package com.android.zerosms;
 
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
 import android.app.Activity;
 import android.app.PendingIntent;
 import android.content.Intent;
@@ -13,20 +17,17 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.RadioButton;
 import android.widget.Toast;
 import com.android.internal.telephony.IccSmsInterfaceManager;
 import com.android.internal.telephony.Phone;
 import com.android.internal.telephony.PhoneFactory;
 import com.android.internal.telephony.SMSDispatcher;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.util.Arrays;
-
 public class ZeroSMS extends Activity
 {
   private Button btnSendSMS;
+  private RadioButton radioVm1, radioVm0, radioSilent;
   private ImageButton btnContactPick;
   private EditText txtPhoneNo;
   private EditText txtMessage;
@@ -42,10 +43,13 @@ public class ZeroSMS extends Activity
     super.onCreate(savedInstanceState);
     setContentView(R.layout.main);
 
-    btnSendSMS = (Button) findViewById(R.id.btnSendSMS);
-    btnContactPick = (ImageButton) findViewById(R.id.btnContact);
-    txtPhoneNo = (EditText) findViewById(R.id.txtPhoneNo);
-    txtMessage = (EditText) findViewById(R.id.txtMessage);
+    btnSendSMS = (Button)findViewById(R.id.btnSendSMS);
+    btnContactPick = (ImageButton)findViewById(R.id.btnContact);
+    txtPhoneNo = (EditText)findViewById(R.id.txtPhoneNo);
+    txtMessage = (EditText)findViewById(R.id.txtMessage);
+    radioVm1 = (RadioButton)findViewById(R.id.radioButtonVM1);
+    radioVm0 = (RadioButton)findViewById(R.id.radioButtonVM0);
+    radioSilent = (RadioButton)findViewById(R.id.radioButtonSilent);
 
     btnSendSMS.setOnClickListener(new View.OnClickListener()
     {
@@ -68,7 +72,6 @@ public class ZeroSMS extends Activity
         {
           Toast.makeText(getBaseContext(), "Please enter both phone number and message.", Toast.LENGTH_SHORT).show();
         }
-
       }
     });
 
@@ -82,9 +85,7 @@ public class ZeroSMS extends Activity
         startActivityForResult(contactPickerIntent, CONTACT_PICKER_RESULT);
       }
     });
-
   }
-
 
   protected void onActivityResult(int requestCode, int resultCode, Intent data)
   {
@@ -104,7 +105,6 @@ public class ZeroSMS extends Activity
             {
               txtPhoneNo.setText(cursor.getString(cursor.getColumnIndex(android.provider.ContactsContract.CommonDataKinds.Phone.NUMBER)));
             }
-
           }
           catch (Exception e)
           {
@@ -127,7 +127,6 @@ public class ZeroSMS extends Activity
     }
   }
 
-
   /* Sends class 0 SMS */
   private boolean sendSMS(String phoneNumber, String message)
   {
@@ -146,7 +145,7 @@ public class ZeroSMS extends Activity
       Log.d(TAG, "Retrieving mDispatcher ...");
       f = IccSmsInterfaceManager.class.getDeclaredField("mDispatcher");
       f.setAccessible(true);
-      SMSDispatcher sms_disp = (SMSDispatcher) f.get(ismsm);
+      SMSDispatcher sms_disp = (SMSDispatcher)f.get(ismsm);
 
       Log.d(TAG, "Formatting class 0 SMS ...");
       byte[] b = new byte[0];
@@ -156,35 +155,57 @@ public class ZeroSMS extends Activity
           );
 
 		  /* change class to Class 0 */
-      size = (int) pdus.encodedMessage[2];
+      size = (int)pdus.encodedMessage[2];
+      Log.d(TAG, "Size: " + size);
       StringBuilder sb = new StringBuilder();
       for (byte bajt : pdus.encodedMessage)
       {
-        sb.append(String.format("%02X ", bajt));
+        sb.append(String.format("%02X", bajt));
       }
       size = (size / 2) + (size % 2);
-      Log.d(TAG, "Encoded message: " + sb.toString() + ", Class current byte: " + String.format("%02X ", pdus.encodedMessage[size + 5]));
-      pdus.encodedMessage[size + 5] = (byte) 0xF0;
-		    	
+      Log.d(TAG, "Location of class: " + size + 5);
+      Log.d(TAG, "Encoded message - before: " + sb.toString());
+      if (radioSilent.isChecked())
+      {
+        pdus.encodedMessage[size + 5] = (byte)0xC0; //silent
+      }
+      else if (radioVm1.isChecked())
+      {
+        pdus.encodedMessage[size + 5] = (byte)0xC8; //voicemail on
+      }
+      else if (radioVm0.isChecked())
+      {
+        pdus.encodedMessage[size + 5] = (byte)0xC0; //voicemail off
+      }
+      else
+      {
+        pdus.encodedMessage[size + 5] = (byte)0xF0; //flash
+      }
+      sb = new StringBuilder();
+      for (byte bajt : pdus.encodedMessage)
+      {
+        sb.append(String.format("%02X", bajt));
+      }
+      Log.d(TAG, "Encoded message after fix: " + sb.toString());
+
 		  /* send raw pdu */
       Log.d(TAG, "Sending SMS via sendRawPdu() ...");
       try
       {
-		    		/* Android 2.2 -> 4.0.* */
+		   		/* Android 2.2 -> 4.0.* */
         Method m = SMSDispatcher.class.getDeclaredMethod("sendRawPdu", b.getClass(), b.getClass(), PendingIntent.class, PendingIntent.class);
         m.setAccessible(true);
         m.invoke(sms_disp, pdus.encodedScAddress, pdus.encodedMessage, null, null);
       }
       catch (NoSuchMethodException e)
       {
-		    		/* Android 4.1.2 */
+		   		/* Android 4.1.2 */
         Method m = SMSDispatcher.class.getDeclaredMethod("sendRawPdu", b.getClass(), b.getClass(), PendingIntent.class, PendingIntent.class, String.class);
         m.setAccessible(true);
         m.invoke(sms_disp, pdus.encodedScAddress, pdus.encodedMessage, null, null, phoneNumber);
       }
       Log.d(TAG, "SMS sent");
       return true;
-
     }
     catch (SecurityException e)
     {
