@@ -18,6 +18,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.RadioButton;
+import android.widget.Switch;
 import android.widget.Toast;
 import com.android.internal.telephony.IccSmsInterfaceManager;
 import com.android.internal.telephony.Phone;
@@ -27,7 +28,8 @@ import com.android.internal.telephony.SMSDispatcher;
 public class ZeroSMS extends Activity
 {
   private Button btnSendSMS;
-  private RadioButton radioVm1, radioVm0, radioSilent;
+  private RadioButton radioVm1, radioVm0, radioFlash;
+  private Switch m_receiptSwitch;
   private ImageButton btnContactPick;
   private EditText txtPhoneNo;
   private EditText txtMessage;
@@ -49,7 +51,8 @@ public class ZeroSMS extends Activity
     txtMessage = (EditText)findViewById(R.id.txtMessage);
     radioVm1 = (RadioButton)findViewById(R.id.radioButtonVM1);
     radioVm0 = (RadioButton)findViewById(R.id.radioButtonVM0);
-    radioSilent = (RadioButton)findViewById(R.id.radioButtonSilent);
+    radioFlash = (RadioButton)findViewById(R.id.radioButtonFlash);
+    m_receiptSwitch = (Switch)findViewById(R.id.receipt);
 
     btnSendSMS.setOnClickListener(new View.OnClickListener()
     {
@@ -165,11 +168,8 @@ public class ZeroSMS extends Activity
       size = (size / 2) + (size % 2);
       Log.d(TAG, "Location of class: " + size + 5);
       Log.d(TAG, "Encoded message - before: " + sb.toString());
-      if (radioSilent.isChecked())
-      {
-        pdus.encodedMessage[size + 5] = (byte)0xC0; //silent
-      }
-      else if (radioVm1.isChecked())
+
+      if (radioVm1.isChecked())
       {
         pdus.encodedMessage[size + 5] = (byte)0xC8; //voicemail on
       }
@@ -177,10 +177,16 @@ public class ZeroSMS extends Activity
       {
         pdus.encodedMessage[size + 5] = (byte)0xC0; //voicemail off
       }
-      else
+      else if (radioFlash.isChecked())
       {
         pdus.encodedMessage[size + 5] = (byte)0xF0; //flash
       }
+
+      if (m_receiptSwitch.isChecked())
+      {
+        pdus.encodedMessage[0] = (byte)0xA1; //receipt
+      }
+
       sb = new StringBuilder();
       for (byte bajt : pdus.encodedMessage)
       {

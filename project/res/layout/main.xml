@@ -48,8 +48,9 @@
       <RadioGroup android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_gravity="left|center_vertical">
         <RadioButton android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Voicemail ON" android:id="@+id/radioButtonVM1"/>
         <RadioButton android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Voicemail OFF" android:id="@+id/radioButtonVM0"/>
-        <RadioButton android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Silent" android:id="@+id/radioButtonSilent"/>
+        <RadioButton android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Flash" android:id="@+id/radioButtonFlash"/>
       </RadioGroup>
+      <Switch android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Receipt" android:id="@+id/receipt"/>
     </LinearLayout>
   </ScrollView>
 </LinearLayout>
